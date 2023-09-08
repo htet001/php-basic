@@ -1,0 +1,1 @@
+There are 300000 people in Yangon . Float value 50.700000

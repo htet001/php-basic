@@ -12,4 +12,7 @@ $file = "myproject.txt";//file path
 $handler = fopen($file,'w');//file open(file,mode)
 fwrite($handler, "Maymyanmarlin");
 fclose($handler);
+
+
+
 ?>

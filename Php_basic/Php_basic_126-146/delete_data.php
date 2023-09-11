@@ -13,12 +13,11 @@ function dbConnect(){
     
 }
 
-
-
-function debug($data){
-    echo "<pre>".print_r($data,true)."</pre>";
+function deleteData($name) {
+    $qry = "DELETE FROM user WHERE name='$name'";
+    $db = dbConnect();
+    $result = mysqli_multi_query($db,$qry);
+    echo $result ? "Deleted" : "Delete Fail";
 }
-//dbConnect();
-debug(dbConnect());
 
-
+deleteData("bruno");

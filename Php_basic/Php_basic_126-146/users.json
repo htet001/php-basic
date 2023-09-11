@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "htet",
+        "creator": "0",
+        "email": "htet@gmail.com",
+        "password": 123123
+    },
+    {
+        "id": "2",
+        "name": "hlaing",
+        "creator": "1",
+        "email": "hlaing@gmail.com",
+        "password": 123123
+    },
+    {
+        "id": "3",
+        "name": "moe",
+        "creator": "1",
+        "email": "moe@gmail.com",
+        "password": 123123
+    },
+    {
+        "id": "4",
+        "name": "aung",
+        "creator": "2",
+        "email": "aung@gmail.com",
+        "password": 123123
+    },
+    {
+        "id": "5",
+        "name": "linn",
+        "creator": "3",
+        "email": "linn@gmail.com",
+        "password": 123123
+    }
+]
